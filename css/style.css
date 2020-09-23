@@ -1,0 +1,343 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.outer{
+	width: 1920px;
+	height: 4643px;
+	background: white;
+	margin: 0 auto;
+}
+header{
+	width: 1175px;
+	height: 123px;
+/*	background: #3e978b;*/
+	position: absolute;
+	z-index: 1000;
+}
+.container{
+	width: 1175px;
+/*	height: 4943px;*/
+/*	background: #d2e603;*/
+	margin: 0 auto;
+}
+.logo{
+	width: 70px;
+/*	background: #ffb0b0;*/
+	height: 123px;
+	left: 0;
+	position: absolute;
+}
+.logo-img{
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50%;
+	margin-top: 53px;
+}
+.logo-img img{
+	width: 40px;
+	margin-top: 18px;
+	margin-left: 16px;
+}
+.menu{
+	width: 668px;
+	height: 123px;
+/*	background: #557571;*/
+	right: 0;
+	position: absolute;
+}
+.menu ul{
+	list-style: none;
+	text-align: right;
+	margin-top: 63px;
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 45px;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color:#323232;
+	opacity: 0.9;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.menu ul li a:hover {
+	color: black;
+}
+.menu ul li:last-child{
+	width: 80px;
+	height: 25px;
+	background: black;
+	text-align: center;
+	line-height: 25px;
+}
+.menu ul li:last-child a{
+	color: white;
+}
+.content-1{
+	height: 1000px;
+	width: 1920px;
+	background: url("../img/Rectangle 785 copy.png");
+	text-align: center;
+}
+.banner{
+	height: 860px;
+	width: 1175px;
+	margin: 0 auto;
+	position: relative;
+/*	background: green;*/
+}
+.banner-text{
+	text-align: left;
+	height: 275px;
+	width: 575px;
+/*	background: #f6f7d4;*/
+	position: absolute;
+	bottom: 375px;
+	top: 360px;
+	z-index: 99;
+}
+.banner-text h2{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+.banner-text h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 68px;
+	font-weight: bolder;
+}
+.banner-text p{
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: darkgray;
+}
+.banner-text a{
+	padding: 12px 30px;
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+.banner-img{
+	height: 670px;
+	width: 1450px;
+	position: absolute;
+	top: 190px;
+	background: url("../img/Layer 12.png")
+}
+.concept h1{
+	font-size: 52px;
+
+}
+.concept{
+	height: 1665px;
+/*	background: #d54062;*/
+	text-align: center;
+}
+.concept-gallery{
+	height: 1440px;
+/*	background: #fabea7;*/
+	display: inline-flex;
+  	align-items: center;
+}
+.box-img-left{
+	width: 368px;
+	height: 1440px;
+/*	background: #fadcac;*/
+	box-sizing: border-box;
+}
+.box-img-center{
+	width: 368px;
+	height: 1440px;
+/*	background: #fadcac;*/
+	margin-left: 34px;
+	margin-right: 34px;
+}
+.box-img-right{
+	width: 368px;
+	height: 1440px;
+/*	background: #fadcac;*/
+}
+.box-1-1{
+	height: 369px;
+/*	background: #cdb30c;*/
+	margin-bottom: 50px;
+	background: url("../img/images/images/Portfolio-Landing-Page-Template_06.gif")
+}
+.box-1-2{
+	height: 321px;
+	background: #cdb30c;
+	margin-bottom: 50px;
+	background: url("../img/images/images/Portfolio-Landing-Page-Template_18.gif")
+}
+.box-1-3{
+	height: 455px;
+	background: #cdb30c;
+	background: url("../img/images/images/Portfolio-Landing-Page-Template_22.gif")
+}
+.box-2-1{
+	height: 403px;
+	background: #cdb30c;
+	margin-bottom: 50px;
+	background: url("../img/images/images/Portfolio-Landing-Page-Template_03.gif")
+}
+.box-2-2{
+	height: 505px;
+	background: #cdb30c;
+	margin-bottom: 50px;
+	background: url("../img/images/images/Portfolio-Landing-Page-Template_12.gif")
+}
+.box-2-3{
+	height: 431px;
+	background: #cdb30c;
+	background: url("../img/images/images/Portfolio-Landing-Page-Template_24.gif")
+}
+.box-3-1{
+	height: 473px;
+	background: #cdb30c;
+	margin-bottom: 50px;
+	background: url("../img/images/images/Portfolio-Landing-Page-Template_09.gif")
+}
+.box-3-2{
+	height: 337px;
+	background: #cdb30c;
+	margin-bottom: 50px;
+	background: url("../img/images/images/Portfolio-Landing-Page-Template_15.gif")
+}
+.box-3-3{
+	height: 484px;
+	background: #cdb30c;
+	background: url("../img/images/images/Portfolio-Landing-Page-Template_21.gif")
+}
+.concept a{
+	padding: 12px 30px;
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+}
+.content-2{
+	width: 1920px;
+	height: 600px;
+	text-align: center;
+	background: url("../img/Rectangle 784.png");
+	
+}
+.content-text{
+	width: 1090px;
+	margin: 0 auto;
+	height: 235px;
+	display: inline-flex;
+	margin-top: 194px;
+}
+.text-1{
+	width: 294px;
+	height: 235px;
+/*	background: pink;*/
+}
+.text-2{
+	width: 294px;
+	height: 235px;
+/*	background: pink;*/
+	margin-left: 50px;
+}
+.text-3{
+	width: 294px;
+	height: 235px;
+/*	background: pink;*/
+	margin-left: 50px;
+}
+.content-text p{
+	font-size: 15px;
+	color: #666666;
+	opacity: 0.7;
+}
+.content-text img:hover{
+	transform: scale(1.1);
+}
+.form{
+	width: 770px;
+	height: 790px;
+/*	background: pink;*/
+	margin: 0 auto;
+	position: relative;
+}
+.form input{
+	margin-top: 20px;
+	width: 770px;
+	border: none;
+	border-bottom: 1px solid gray;
+	background: transparent;
+	font-size: 13px;
+	line-height: 43px;
+	font-family: 'Montserrat', sans-serif;
+}
+.form h1{
+	font-size: 52px;
+	margin-top: 63px;
+	margin-left: 219px;
+}
+.form p{
+	font-size: 13px;
+	margin-top: 40px;
+	color: gray;
+	margin-bottom: 19px;
+}
+.form textarea{
+	width: 770px;
+	height: 199px;
+}
+.form a{
+	padding: 17px 61px;
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	position: absolute;
+	top: 600px;
+	left: 304px;
+}
+footer{
+	width: 1920px;
+	height: 550px;
+	text-align: center;
+	background: url("../img/Rectangle 784.png");
+	position: relative;
+}
+.footer-text{
+	width: 327px; 
+	height: 400px;
+/*	background: green;*/
+	position: absolute;
+	top: 150px;
+	left: 799px;
+}
+.footer-text h1{
+	font-size: 44px;
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+}
+.footer-text h2{
+	font-size: 23px;
+	line-height: 93px;
+}
+#email{
+	text-decoration: underline;
+}
+.footer-text a{
+	text-decoration: none;
+	color: black;
+}
+.footer-text p{
+	font-size: 11px;
+}
